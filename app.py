@@ -70,11 +70,18 @@ st.markdown(
 .typing span:nth-child(3) {animation-delay: .4s;}
 @keyframes blink {0%, 80%, 100% {opacity: .25;} 40% {opacity: 1;}}
 
-/* Input bar */
-[data-testid="stBottom"] > div, [data-testid="stBottomBlockContainer"] {background: #f0f2f5 !important;}
-[data-testid="stChatInput"] {border-radius: 26px; background: #ffffff; border: none;
-    box-shadow: 0 1px 3px rgba(0,0,0,.2);}
-[data-testid="stChatInput"] textarea {color: #111b21 !important;}
+/* Input bar: dark box with white typing text */
+[data-testid="stBottom"] > div, [data-testid="stBottomBlockContainer"] {background: #202c33 !important;}
+[data-testid="stChatInput"], [data-testid="stChatInput"] > div {
+    background: #2a3942 !important; border: none !important; border-radius: 26px;
+}
+[data-testid="stChatInput"] textarea {
+    background: transparent !important; color: #ffffff !important;
+    -webkit-text-fill-color: #ffffff !important; caret-color: #ffffff !important;
+}
+[data-testid="stChatInput"] textarea::placeholder {
+    color: #aebac1 !important; -webkit-text-fill-color: #aebac1 !important; opacity: 1 !important;
+}
 [data-testid="stChatInputSubmitButton"] {background: #128c7e !important; color: #fff !important; border-radius: 50%;}
 </style>
 """,
