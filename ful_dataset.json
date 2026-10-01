@@ -1,0 +1,2137 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "hello",
+        "hi",
+        "hey",
+        "good morning",
+        "good afternoon",
+        "good evening",
+        "hello FUL",
+        "hi university guide",
+        "is anyone there",
+        "are you online"
+      ],
+      "responses": [
+        "Hello! I’m the Federal University Lokoja information assistant. What would you like to know?"
+      ],
+      "context_set": "",
+      "source": "FUL chatbot dataset 2026"
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "bye",
+        "goodbye",
+        "see you later",
+        "talk to you later",
+        "i have to go",
+        "thanks bye",
+        "that is all"
+      ],
+      "responses": [
+        "Goodbye! If you need more information about Federal University Lokoja, feel free to ask again."
+      ],
+      "context_set": "",
+      "source": "FUL chatbot dataset 2026"
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "thank you",
+        "thanks",
+        "thanks a lot",
+        "thank you very much",
+        "i appreciate it",
+        "nice one",
+        "that helped",
+        "you have helped me"
+      ],
+      "responses": [
+        "You're welcome. I’m glad I could help."
+      ],
+      "context_set": "",
+      "source": "FUL chatbot dataset 2026"
+    },
+    {
+      "tag": "chatbot_identity",
+      "patterns": [
+        "what is your name",
+        "who are you",
+        "what are you",
+        "what should i call you",
+        "what can i call you",
+        "are you a chatbot",
+        "are you an ai"
+      ],
+      "responses": [
+        "I am the Federal University Lokoja information assistant. I can help with general questions about admissions, academics, faculties, departments, student services and university information."
+      ],
+      "context_set": "",
+      "source": "FUL chatbot dataset 2026"
+    },
+    {
+      "tag": "chatbot_capabilities",
+      "patterns": [
+        "what can you do",
+        "how can you help me",
+        "what can i ask you",
+        "what information do you have",
+        "what questions can i ask",
+        "what are you able to do"
+      ],
+      "responses": [
+        "You can ask me about FUL admissions, Post-UTME, programmes, faculties and departments, academic calendar, portals, fees, registration, examinations, library, hostel, student services and other university information."
+      ],
+      "context_set": "",
+      "source": "FUL chatbot dataset 2026"
+    },
+    {
+      "tag": "university_about",
+      "patterns": [
+        "what is federal university lokoja",
+        "tell me about federal university lokoja",
+        "what is fulokoja",
+        "what does ful stand for",
+        "where is ful located",
+        "when was federal university lokoja established"
+      ],
+      "responses": [
+        "Federal University Lokoja (FUL) is a federal university in Lokoja, Kogi State, Nigeria. The university was established in 2011 and began academic activities on December 3, 2012."
+      ],
+      "context_set": "",
+      "source": "FUL chatbot dataset 2026"
+    },
+    {
+      "tag": "university_location",
+      "patterns": [
+        "where is federal university lokoja located",
+        "where is ful located",
+        "what is the address of ful",
+        "ful address",
+        "where is the main campus",
+        "where is felele campus",
+        "how do i get to ful"
+      ],
+      "responses": [
+        "The main campus is at P.M.B. 1154, Main Campus, Felele (Permanent Site), Lokoja-Okene Expressway, Felele, Lokoja, Kogi State, Nigeria. FUL also has the College of Health Sciences at Adankolo, behind Specialist Hospital, Lokoja."
+      ],
+      "context_set": "",
+      "source": "FUL chatbot dataset 2026"
+    },
+    {
+      "tag": "contact_information",
+      "patterns": [
+        "how can i contact ful",
+        "ful phone number",
+        "university phone number",
+        "ful contact",
+        "how do i call the university",
+        "ful email",
+        "university email address",
+        "contact federal university lokoja"
+      ],
+      "responses": [
+        "FUL's official website lists +234 707 3199 972 and +234 707 3317 070 as contact numbers. It also lists a WhatsApp-only Abuja Liaison Office number: +234 916 291 4432. For current email contacts, use the official university website."
+      ],
+      "context_set": "",
+      "source": "FUL chatbot dataset 2026"
+    },
+    {
+      "tag": "opening_hours",
+      "patterns": [
+        "what time does ful open",
+        "when is the university open",
+        "ful working hours",
+        "university opening hours",
+        "when can i visit ful",
+        "is ful open on saturday",
+        "office hours at ful"
+      ],
+      "responses": [
+        "Opening hours can differ by office and unit. For a specific office, check its official contact information rather than assuming one university-wide time."
+      ],
+      "context_set": "",
+      "source": "FUL chatbot dataset 2026"
+    },
+    {
+      "tag": "current_vc",
+      "patterns": [
+        "who is the vice chancellor",
+        "who is ful vice chancellor",
+        "name of the vc",
+        "current vc of ful",
+        "who is the current vice chancellor of federal university lokoja",
+        "prof ibileye"
+      ],
+      "responses": [
+        "The current Vice-Chancellor listed by FUL is Professor Gbenga Solomon Ibileye. He became the fourth Vice-Chancellor and assumed office on 16 February 2026."
+      ],
+      "context_set": "",
+      "source": "FUL chatbot dataset 2026"
+    },
+    {
+      "tag": "principal_officers",
+      "patterns": [
+        "who are the principal officers",
+        "ful principal officers",
+        "who is the registrar",
+        "who is the bursar",
+        "who is the university librarian",
+        "who is the deputy vice chancellor"
+      ],
+      "responses": [
+        "FUL lists Professor Gbenga Solomon Ibileye as Vice-Chancellor; Professor Salihu Danlami Musa as Deputy Vice-Chancellor (Academics); Professor Jacqueline Azumi Badaki as Deputy Vice-Chancellor (Administration); Dr. Rebecca Aimiohu Okojie as Registrar; Mr. Sule John Shilo as Bursar; and Professor Sarah Dauda Yani as University Librarian."
+      ],
+      "context_set": "",
+      "source": "FUL chatbot dataset 2026"
+    },
+    {
+      "tag": "university_history",
+      "patterns": [
+        "history of ful",
+        "history of federal university lokoja",
+        "when did ful start academic activities",
+        "when did ful begin",
+        "how old is federal university lokoja"
+      ],
+      "responses": [
+        "Federal University Lokoja was established in 2011 and commenced academic activities on December 3, 2012, initially with two faculties, 11 departments and 235 pioneer students."
+      ],
+      "context_set": "",
+      "source": "FUL chatbot dataset 2026"
+    },
+    {
+      "tag": "faculties_list",
+      "patterns": [
+        "list all faculties in ful",
+        "what faculties are in ful",
+        "how many faculties does ful have",
+        "faculties in federal university lokoja",
+        "what are the faculties",
+        "list of faculties and colleges"
+      ],
+      "responses": [
+        "FUL's current official materials include Agriculture, Allied Health Sciences, Arts, Basic Medical Sciences, Clinical Sciences, Education, Engineering and Technology, Environmental Science, Law, Life Sciences, Management Sciences, Pharmaceutical Sciences, Physical Sciences, Social Sciences, Computing, Communication and Media Studies, the College of Health Sciences and the College of Postgraduate Studies. The university's web pages are the best source for the latest structure."
+      ],
+      "context_set": "",
+      "source": "FUL chatbot dataset 2026"
+    },
+    {
+      "tag": "faculty_computing",
+      "patterns": [
+        "faculty of computing",
+        "what is in faculty of computing",
+        "departments in faculty of computing",
+        "how many departments are in faculty of computing",
+        "list departments in computing",
+        "computing faculty departments",
+        "does computing have artificial intelligence",
+        "is data science in faculty of computing"
+      ],
+      "responses": [
+        "The Faculty of Computing currently lists five academic departments: Artificial Intelligence, Computer Science, Cyber Security, Data Science, and Software Engineering."
+      ],
+      "context_set": "",
+      "source": "FUL chatbot dataset 2026"
+    },
+    {
+      "tag": "faculty_engineering",
+      "patterns": [
+        "faculty of engineering",
+        "engineering faculty departments",
+        "departments in engineering and technology",
+        "how many engineering departments",
+        "what engineering departments are in ful"
+      ],
+      "responses": [
+        "The Faculty of Engineering and Technology currently lists Computer Engineering, Electrical and Electronic Engineering, and Mechanical Engineering."
+      ],
+      "context_set": "",
+      "source": "FUL chatbot dataset 2026"
+    },
+    {
+      "tag": "faculty_arts",
+      "patterns": [
+        "faculty of arts departments",
+        "departments in faculty of arts",
+        "what departments are in arts",
+        "list arts departments ful"
+      ],
+      "responses": [
+        "The Faculty of Arts lists Arabic Studies, Archaeology and Museum Studies, Christian Religious Studies, English and Literary Studies, French, History and International Studies, Islamic Studies, Linguistics, Music, Philosophy, and Theatre Arts."
+      ],
+      "context_set": "",
+      "source": "FUL chatbot dataset 2026"
+    },
+    {
+      "tag": "faculty_social_sciences",
+      "patterns": [
+        "faculty of social sciences departments",
+        "departments in social sciences",
+        "social science departments ful",
+        "what departments are in faculty of social science"
+      ],
+      "responses": [
+        "The Faculty of Social Science lists Criminology and Security Studies, Economics, Library and Information Science, Political Science, Psychology, Social Works, and Sociology."
+      ],
+      "context_set": "",
+      "source": "FUL chatbot dataset 2026"
+    },
+    {
+      "tag": "faculty_management_sciences",
+      "patterns": [
+        "faculty of management sciences departments",
+        "departments in management sciences",
+        "management science departments ful"
+      ],
+      "responses": [
+        "The Faculty of Management Sciences lists Accounting, Banking and Finance, Business Administration, Entrepreneurship Studies, Procurement Management, and Public Administration."
+      ],
+      "context_set": "",
+      "source": "FUL chatbot dataset 2026"
+    },
+    {
+      "tag": "faculty_education",
+      "patterns": [
+        "faculty of education departments",
+        "departments in education ful",
+        "education faculty departments"
+      ],
+      "responses": [
+        "The Faculty of Education lists Arts and Social Science Education, Business Education, Educational Foundations, and Science Education."
+      ],
+      "context_set": "",
+      "source": "FUL chatbot dataset 2026"
+    },
+    {
+      "tag": "faculty_physical_sciences",
+      "patterns": [
+        "faculty of physical sciences departments",
+        "departments in physical sciences",
+        "physical science departments ful"
+      ],
+      "responses": [
+        "The Faculty of Physical Sciences lists Actuarial Science, Chemistry, Geology, Industrial Chemistry, Mathematics, Physics, and Statistics."
+      ],
+      "context_set": "",
+      "source": "FUL chatbot dataset 2026"
+    },
+    {
+      "tag": "faculty_life_sciences",
+      "patterns": [
+        "faculty of life sciences departments",
+        "departments in life sciences",
+        "life science departments ful"
+      ],
+      "responses": [
+        "The Faculty of Life Sciences lists Biochemistry, Biology, Biotechnology, Botany, Microbiology, and Zoology."
+      ],
+      "context_set": "",
+      "source": "FUL chatbot dataset 2026"
+    },
+    {
+      "tag": "faculty_communication_media",
+      "patterns": [
+        "faculty of communication and media studies",
+        "departments in communication and media",
+        "communication faculty departments",
+        "mass communication faculty"
+      ],
+      "responses": [
+        "The Faculty of Communication and Media Studies lists Broadcasting Journalism, Film and Multimedia Studies, and Mass Communication."
+      ],
+      "context_set": "",
+      "source": "FUL chatbot dataset 2026"
+    },
+    {
+      "tag": "faculty_law",
+      "patterns": [
+        "faculty of law",
+        "law department ful",
+        "departments in faculty of law",
+        "does ful offer law"
+      ],
+      "responses": [
+        "The Faculty of Law currently lists one academic department: Law. FUL's admission requirements page lists LL.B. Law as a 5-year programme."
+      ],
+      "context_set": "",
+      "source": "FUL chatbot dataset 2026"
+    },
+    {
+      "tag": "faculty_health",
+      "patterns": [
+        "college of health sciences",
+        "health sciences at ful",
+        "where is college of health sciences",
+        "health sciences campus",
+        "adankolo campus"
+      ],
+      "responses": [
+        "FUL's College of Health Sciences is at Adankolo, behind Specialist Hospital, Lokoja. Current FUL materials include Allied Health Sciences, Basic Medical Sciences and Clinical Sciences within the health structure."
+      ],
+      "context_set": "",
+      "source": "FUL chatbot dataset 2026"
+    },
+    {
+      "tag": "faculty_agriculture",
+      "patterns": [
+        "faculty of agriculture",
+        "agriculture department ful",
+        "agriculture programmes ful",
+        "does ful have agriculture"
+      ],
+      "responses": [
+        "Federal University Lokoja currently has a Faculty of Agriculture. For the latest departments and programmes, use the university's current Academics and Admissions pages."
+      ],
+      "context_set": "",
+      "source": "FUL chatbot dataset 2026"
+    },
+    {
+      "tag": "faculty_pharmacy",
+      "patterns": [
+        "faculty of pharmacy",
+        "pharmacy at ful",
+        "does ful offer pharmacy",
+        "pharmaceutical sciences ful"
+      ],
+      "responses": [
+        "FUL's current website has a Faculty of Pharmaceutical Sciences and a Department of Pharmacy. Check the current admissions page for the programme and admission requirements applicable to your session."
+      ],
+      "context_set": "",
+      "source": "FUL chatbot dataset 2026"
+    },
+    {
+      "tag": "faculty_environmental",
+      "patterns": [
+        "faculty of environmental science",
+        "environmental science ful",
+        "departments in environmental science",
+        "does ful have environmental science"
+      ],
+      "responses": [
+        "FUL's current official admissions materials include a Faculty of Environmental Science. Check the programme-specific admissions page for the current departments and requirements."
+      ],
+      "context_set": "",
+      "source": "FUL chatbot dataset 2026"
+    },
+    {
+      "tag": "programmes_general",
+      "patterns": [
+        "what courses does ful offer",
+        "courses offered in ful",
+        "list courses in federal university lokoja",
+        "what programmes are available",
+        "list undergraduate programmes",
+        "what can i study at ful"
+      ],
+      "responses": [
+        "FUL offers undergraduate programmes across its current faculties. For an accurate programme list and the requirements for each programme, use the University's current Admissions and Academics pages rather than an old course list."
+      ],
+      "context_set": "",
+      "source": "FUL chatbot dataset 2026"
+    },
+    {
+      "tag": "course_by_department",
+      "patterns": [
+        "what courses are in computer science",
+        "what can i study in computer science at ful",
+        "computer science programmes ful",
+        "what courses are in data science",
+        "what can i study in artificial intelligence",
+        "software engineering at ful"
+      ],
+      "responses": [
+        "FUL's Faculty of Computing currently includes Artificial Intelligence, Computer Science, Cyber Security, Data Science and Software Engineering. For the exact degree title and admission requirements, check the current FUL admissions page."
+      ],
+      "context_set": "",
+      "source": "FUL chatbot dataset 2026"
+    },
+    {
+      "tag": "course_requirements",
+      "patterns": [
+        "what are the requirements for a course",
+        "requirements for my course",
+        "o level requirements for a programme",
+        "utme subjects for my course",
+        "jamb subjects for a course",
+        "what subjects do i need for admission"
+      ],
+      "responses": [
+        "Programme requirements vary by course. FUL publishes the current UTME, O'Level and Direct Entry requirements on its General Admission Requirements page. Ask for a specific programme, for example 'requirements for Computer Science'."
+      ],
+      "context_set": "",
+      "source": "FUL chatbot dataset 2026"
+    },
+    {
+      "tag": "cutoff_marks",
+      "patterns": [
+        "what is the cut off mark",
+        "ful cutoff mark",
+        "departmental cutoff mark",
+        "2026 cutoff mark",
+        "2026 2027 cutoff marks",
+        "cut off for computer science",
+        "cut off for law"
+      ],
+      "responses": [
+        "FUL approved programme-specific cut-off marks for the 2026/2027 admissions exercise on September 17, 2026. The exact mark depends on the programme, so check the University's latest cut-off announcement for the course you want."
+      ],
+      "context_set": "",
+      "source": "FUL chatbot dataset 2026"
+    },
+    {
+      "tag": "admission_process",
+      "patterns": [
+        "how do i apply to ful",
+        "how can i get admission into ful",
+        "ful admission process",
+        "undergraduate admission process",
+        "how to gain admission into federal university lokoja",
+        "steps for ful admission"
+      ],
+      "responses": [
+        "FUL undergraduate admission is through JAMB UTME or Direct Entry and the University's Post-UTME screening exercise. Candidates should follow the current admission notice and portal instructions for their session."
+      ],
+      "context_set": "",
+      "source": "FUL chatbot dataset 2026"
+    },
+    {
+      "tag": "post_utme",
+      "patterns": [
+        "what is post utme",
+        "ful post utme",
+        "post utme screening",
+        "how do i register for post utme",
+        "post utme requirements",
+        "post utme portal",
+        "when did ful post utme open"
+      ],
+      "responses": [
+        "For the 2026/2027 cycle, FUL opened its Post-UTME screening portal in June 2026. Candidates log in with their JAMB registration number, confirm eligibility, complete biodata, select O'Level results, pay through Remita, choose a programme and submit the screening."
+      ],
+      "context_set": "",
+      "source": "FUL chatbot dataset 2026"
+    },
+    {
+      "tag": "post_utme_eligibility",
+      "patterns": [
+        "who is eligible for ful post utme",
+        "post utme eligibility 2026",
+        "minimum jamb score for ful",
+        "what score do i need for ful post utme",
+        "can i apply with 160",
+        "is 160 enough for post utme"
+      ],
+      "responses": [
+        "For the 2026/2027 Post-UTME screening, FUL states that UTME candidates must score at least 160, select FUL as first choice, and meet the other published requirements. DE candidates must have applied through JAMB and meet the stated conditions."
+      ],
+      "context_set": "",
+      "source": "FUL chatbot dataset 2026"
+    },
+    {
+      "tag": "post_utme_fee",
+      "patterns": [
+        "how much is ful post utme",
+        "post utme fee",
+        "screening fee ful",
+        "how much do i pay for post utme",
+        "ful screening payment"
+      ],
+      "responses": [
+        "For the 2026/2027 screening, FUL stated a Post-UTME screening charge of N2,000, paid using a Remita RRR generated through the screening process. Fees can change by session, so confirm before payment."
+      ],
+      "context_set": "",
+      "source": "FUL chatbot dataset 2026"
+    },
+    {
+      "tag": "admission_schedule",
+      "patterns": [
+        "when will ful admission start",
+        "2026 2027 admission dates",
+        "ful admission timeline",
+        "post utme closing date",
+        "when does fresh student registration open",
+        "when will fresh students resume 2026",
+        "2026 fresh students resumption"
+      ],
+      "responses": [
+        "For the 2026/2027 cycle, FUL's approved schedule states: Post-UTME portal opened June 9, 2026; screening closed September 13, 2026; admissions recommendations were scheduled for September 29, 2026; forwarding to JAMB CAPS for October 5, 2026; fresh-student registration portal opening October 26, 2026; and fresh-student resumption November 2, 2026."
+      ],
+      "context_set": "",
+      "source": "FUL chatbot dataset 2026"
+    },
+    {
+      "tag": "admission_status",
+      "patterns": [
+        "have they started giving admission",
+        "how do i check my admission",
+        "where do i check ful admission",
+        "ful admission status",
+        "jamb caps admission",
+        "check my admission status"
+      ],
+      "responses": [
+        "Admission status should be checked through the official JAMB CAPS process and the University's admission/portal instructions for your session. Do not rely on unofficial admission lists or social media posts."
+      ],
+      "context_set": "",
+      "source": "FUL chatbot dataset 2026"
+    },
+    {
+      "tag": "admission_documents",
+      "patterns": [
+        "documents needed for admission",
+        "documents for clearance",
+        "what documents do freshers need",
+        "documents required for registration",
+        "what should i bring for clearance",
+        "fresh student documents"
+      ],
+      "responses": [
+        "Required documents depend on the admission and clearance exercise. Check the latest FUL admission or registration notice for the exact list for your session."
+      ],
+      "context_set": "",
+      "source": "FUL chatbot dataset 2026"
+    },
+    {
+      "tag": "direct_entry",
+      "patterns": [
+        "direct entry admission",
+        "ful direct entry",
+        "can i enter ful through de",
+        "direct entry requirements",
+        "de screening ful",
+        "direct entry post utme"
+      ],
+      "responses": [
+        "FUL admits Direct Entry candidates through JAMB and the University's screening process. Programme-specific DE requirements are published on the current General Admission Requirements page."
+      ],
+      "context_set": "",
+      "source": "FUL chatbot dataset 2026"
+    },
+    {
+      "tag": "postgraduate_admission",
+      "patterns": [
+        "postgraduate admission ful",
+        "masters admission ful",
+        "phd admission ful",
+        "pgd admission ful",
+        "college of postgraduate studies",
+        "spgs admission",
+        "how to apply for postgraduate"
+      ],
+      "responses": [
+        "FUL's College of Postgraduate Studies handles postgraduate admissions. Available programmes and application dates vary by academic session; use the current SPGS admission notice for the programme and session you want."
+      ],
+      "context_set": "",
+      "source": "FUL chatbot dataset 2026"
+    },
+    {
+      "tag": "remedial_jupeb_diploma",
+      "patterns": [
+        "ful jupeb",
+        "jupeb admission ful",
+        "remedial programme ful",
+        "diploma admission ful",
+        "does ful offer jupeb",
+        "ful remedial admission"
+      ],
+      "responses": [
+        "FUL's 2026/2027 admissions schedule explicitly includes Diploma, Remedial and JUPEB admissions recommendations. Check the latest official admission notice for availability, requirements and dates."
+      ],
+      "context_set": "",
+      "source": "FUL chatbot dataset 2026"
+    },
+    {
+      "tag": "academic_calendar_2025_2026",
+      "patterns": [
+        "when did 2025 2026 academic session begin",
+        "when did 2025/2026 session start",
+        "when did 2025 2026 lectures begin",
+        "2025 2026 academic calendar",
+        "2025/2026 session start date",
+        "when did registration begin 2025 2026"
+      ],
+      "responses": [
+        "According to FUL's 2025/2026 academic calendar, registration for new students began November 10, 2025, registration for returning students began November 16, 2025, and lectures began December 1, 2025."
+      ],
+      "context_set": "",
+      "source": "FUL chatbot dataset 2026"
+    },
+    {
+      "tag": "academic_calendar_current",
+      "patterns": [
+        "when is the next exam",
+        "when are 2025 2026 exams",
+        "2025 2026 second semester exam",
+        "when does 2025 2026 session end",
+        "when is second semester break",
+        "academic calendar 2026 ful"
+      ],
+      "responses": [
+        "FUL's published 2025/2026 calendar lists second-semester examinations for September 8 to October 13, 2026, with the end-of-second-semester break scheduled for October 28 to November 15, 2026. Always check for updated calendar notices."
+      ],
+      "context_set": "",
+      "source": "FUL chatbot dataset 2026"
+    },
+    {
+      "tag": "lectures_dates",
+      "patterns": [
+        "when do lectures start",
+        "when do lectures begin",
+        "lecture dates ful",
+        "when are lectures",
+        "when is resumption for lectures",
+        "resumption date ful"
+      ],
+      "responses": [
+        "Lecture and resumption dates depend on the academic session and student category. Use the latest FUL Academic Calendar for the exact date."
+      ],
+      "context_set": "",
+      "source": "FUL chatbot dataset 2026"
+    },
+    {
+      "tag": "exam_dates",
+      "patterns": [
+        "when is exam",
+        "exam timetable",
+        "semester exam date",
+        "when are semester exams",
+        "when is first semester exam",
+        "when is second semester exam",
+        "exam schedule ful"
+      ],
+      "responses": [
+        "Examination dates are published in the FUL Academic Calendar and examination timetable. If you tell me the academic session and semester, I can point you to the relevant official schedule."
+      ],
+      "context_set": "",
+      "source": "FUL chatbot dataset 2026"
+    },
+    {
+      "tag": "matriculation",
+      "patterns": [
+        "when is matriculation",
+        "ful matriculation",
+        "matriculation date",
+        "freshers matriculation",
+        "what is matriculation"
+      ],
+      "responses": [
+        "The 2025/2026 FUL Academic Calendar scheduled matriculation for December 8, 2025. Future matriculation dates should be taken from the current academic calendar or official notice."
+      ],
+      "context_set": "",
+      "source": "FUL chatbot dataset 2026"
+    },
+    {
+      "tag": "orientation",
+      "patterns": [
+        "when is orientation",
+        "freshers orientation",
+        "ful orientation",
+        "orientation programme",
+        "orientation date"
+      ],
+      "responses": [
+        "The 2025/2026 calendar scheduled orientation for fresh students for December 17 to 19, 2025. Dates for later sessions should be confirmed from the latest official notice."
+      ],
+      "context_set": "",
+      "source": "FUL chatbot dataset 2026"
+    },
+    {
+      "tag": "school_fees",
+      "patterns": [
+        "how much is school fees",
+        "ful school fees",
+        "school fees for ful",
+        "tuition fee ful",
+        "fees per session",
+        "how much do ful students pay"
+      ],
+      "responses": [
+        "FUL fees vary by programme, student category and academic session. Use the current official fee schedule or student portal before making payment. I should not give an old fee figure as a current one."
+      ],
+      "context_set": "",
+      "source": "FUL chatbot dataset 2026"
+    },
+    {
+      "tag": "acceptance_fee",
+      "patterns": [
+        "acceptance fee ful",
+        "how much is acceptance fee",
+        "payment of acceptance fee",
+        "where do i pay acceptance fee",
+        "freshers acceptance fee"
+      ],
+      "responses": [
+        "If you are offered admission, follow the acceptance-fee instructions shown on the official FUL admission portal. Confirm the amount and payment window for your admission session before paying."
+      ],
+      "context_set": "",
+      "source": "FUL chatbot dataset 2026"
+    },
+    {
+      "tag": "school_fee_payment",
+      "patterns": [
+        "how do i pay school fees",
+        "how to pay ful fees",
+        "ful fee payment process",
+        "remita school fees ful",
+        "where can i pay my school fees"
+      ],
+      "responses": [
+        "Use the official FUL student portal and the payment instructions provided for your session. Generate the required payment reference and keep your receipt after payment."
+      ],
+      "context_set": "",
+      "source": "FUL chatbot dataset 2026"
+    },
+    {
+      "tag": "fees_receipt",
+      "patterns": [
+        "how do i get my school fees receipt",
+        "print fee receipt",
+        "school fees receipt ful",
+        "payment receipt",
+        "where is my payment receipt"
+      ],
+      "responses": [
+        "After successful payment, use the relevant FUL portal option to view or print your payment receipt. If a payment is successful but the receipt is missing, contact the appropriate bursary or ICT support unit with your payment reference."
+      ],
+      "context_set": "",
+      "source": "FUL chatbot dataset 2026"
+    },
+    {
+      "tag": "student_portal",
+      "patterns": [
+        "ful student portal",
+        "undergraduate portal",
+        "where is the student portal",
+        "student login ful",
+        "matric jamb number portal",
+        "how do i login to ful portal"
+      ],
+      "responses": [
+        "The official FUL Undergraduate Student Portal uses your Matric/JAMB number for login. Use the university's official portal rather than third-party links."
+      ],
+      "context_set": "",
+      "source": "FUL chatbot dataset 2026"
+    },
+    {
+      "tag": "putme_portal",
+      "patterns": [
+        "where is post utme portal",
+        "ful putme login",
+        "putme login",
+        "screening portal login",
+        "jamb number screening portal"
+      ],
+      "responses": [
+        "The official FUL Post-UTME Portal allows UTME/DE applicants to check eligibility and complete screening using their JAMB registration number."
+      ],
+      "context_set": "",
+      "source": "FUL chatbot dataset 2026"
+    },
+    {
+      "tag": "staff_portal",
+      "patterns": [
+        "ful staff portal",
+        "staff login",
+        "where is staff portal",
+        "how do staff login ful"
+      ],
+      "responses": [
+        "FUL has an official Staff Portal for staff login using Staff ID and password."
+      ],
+      "context_set": "",
+      "source": "FUL chatbot dataset 2026"
+    },
+    {
+      "tag": "ict_support",
+      "patterns": [
+        "ful ict support",
+        "ict unit ful",
+        "portal problem",
+        "student portal not working",
+        "i cannot login to portal",
+        "portal error",
+        "technical problem with portal"
+      ],
+      "responses": [
+        "For portal or ICT problems, use the official FUL ICT support/contact channels. Provide your Matric/JAMB number only through official secure channels and never share your password."
+      ],
+      "context_set": "",
+      "source": "FUL chatbot dataset 2026"
+    },
+    {
+      "tag": "course_registration",
+      "patterns": [
+        "how do i register courses",
+        "course registration ful",
+        "register my courses",
+        "online course registration",
+        "course registration portal",
+        "when is course registration"
+      ],
+      "responses": [
+        "Course registration is completed through the student portal during the registration period. Use your department's registration guidance and confirm your registered courses before the deadline."
+      ],
+      "context_set": "",
+      "source": "FUL chatbot dataset 2026"
+    },
+    {
+      "tag": "add_drop",
+      "patterns": [
+        "add and drop course",
+        "course add drop",
+        "can i change a course",
+        "add drop period",
+        "how to add a course",
+        "how to remove a course"
+      ],
+      "responses": [
+        "The 2025/2026 academic calendar scheduled an Add and Drop period from January 20 to 24, 2026. For other sessions, use the latest academic calendar and your department's instructions."
+      ],
+      "context_set": "",
+      "source": "FUL chatbot dataset 2026"
+    },
+    {
+      "tag": "results",
+      "patterns": [
+        "check my result",
+        "semester result ful",
+        "how do i check result",
+        "result portal",
+        "my grades ful",
+        "when will results be released"
+      ],
+      "responses": [
+        "Students normally access results through the official student portal after results are released and approved. If your result is missing or incorrect, contact your department or the appropriate academic records unit."
+      ],
+      "context_set": "",
+      "source": "FUL chatbot dataset 2026"
+    },
+    {
+      "tag": "academic_transcript",
+      "patterns": [
+        "how do i get transcript",
+        "ful transcript",
+        "academic transcript request",
+        "transcript application",
+        "where do i apply for transcript"
+      ],
+      "responses": [
+        "Transcript requests should be made through the University's official process. Check the current Registrar/Academic Records or transcript service instructions for the applicable procedure and fee."
+      ],
+      "context_set": "",
+      "source": "FUL chatbot dataset 2026"
+    },
+    {
+      "tag": "certificate",
+      "patterns": [
+        "how do i collect certificate",
+        "degree certificate ful",
+        "certificate collection",
+        "when can i collect certificate",
+        "graduation certificate"
+      ],
+      "responses": [
+        "Certificate collection depends on completion, approval and the University's release process. Follow the latest Registrar or Convocation notice for collection requirements."
+      ],
+      "context_set": "",
+      "source": "FUL chatbot dataset 2026"
+    },
+    {
+      "tag": "graduation",
+      "patterns": [
+        "graduation requirements",
+        "how do i graduate",
+        "graduation clearance",
+        "final year clearance",
+        "what do i need before graduation"
+      ],
+      "responses": [
+        "Graduation requires completion of academic requirements and the University's clearance processes. Your department and relevant administrative units can provide the checklist for your graduating session."
+      ],
+      "context_set": "",
+      "source": "FUL chatbot dataset 2026"
+    },
+    {
+      "tag": "signing_out",
+      "patterns": [
+        "signing out ceremony",
+        "can final year students sign out",
+        "sign out for final year",
+        "signing out ban ful"
+      ],
+      "responses": [
+        "FUL management announced on September 1, 2026 that signing-out ceremonies by final-year students are banned and directed strict enforcement. Check the University's latest notice for any subsequent change."
+      ],
+      "context_set": "",
+      "source": "FUL chatbot dataset 2026"
+    },
+    {
+      "tag": "hostel",
+      "patterns": [
+        "does ful have hostel",
+        "ful hostel",
+        "student accommodation",
+        "where is ful hostel",
+        "hostel accommodation",
+        "how do i apply for hostel",
+        "hostel allocation"
+      ],
+      "responses": [
+        "FUL provides student accommodation information through official university channels. Hostel availability, allocation, fees and application periods can change, so use the current accommodation notice rather than an old chatbot answer."
+      ],
+      "context_set": "",
+      "source": "FUL chatbot dataset 2026"
+    },
+    {
+      "tag": "library",
+      "patterns": [
+        "ful library",
+        "where is the library",
+        "library opening hours",
+        "library hours",
+        "can i use the library",
+        "digital library ful",
+        "library resources"
+      ],
+      "responses": [
+        "The FUL Library website lists semester-period opening hours as Monday-Friday 8:00am-8:00pm and Saturday-Sunday 8:00am-6:00pm. The library website also provides access to digital and other library resources."
+      ],
+      "context_set": "",
+      "source": "FUL chatbot dataset 2026"
+    },
+    {
+      "tag": "health_services",
+      "patterns": [
+        "ful health centre",
+        "university clinic",
+        "medical services ful",
+        "where is the clinic",
+        "health services",
+        "student medical centre"
+      ],
+      "responses": [
+        "FUL's official website has a Health & Safety section that includes Health Services. For urgent medical needs, use the University's current health-service contacts or the nearest appropriate medical facility."
+      ],
+      "context_set": "",
+      "source": "FUL chatbot dataset 2026"
+    },
+    {
+      "tag": "counselling",
+      "patterns": [
+        "student counselling ful",
+        "counselling services",
+        "psychological services ful",
+        "mental health support ful",
+        "where can students get counselling"
+      ],
+      "responses": [
+        "FUL lists Counselling & Psychological Services under its Health & Safety resources. Students should use the official university channel for current office location, hours and contact details."
+      ],
+      "context_set": "",
+      "source": "FUL chatbot dataset 2026"
+    },
+    {
+      "tag": "security",
+      "patterns": [
+        "ful security",
+        "campus security",
+        "security office ful",
+        "emergency security",
+        "how do i report a security issue"
+      ],
+      "responses": [
+        "FUL lists Institution Security and Safety Alert resources under Health & Safety. For an immediate emergency on campus, contact campus security or the appropriate emergency service."
+      ],
+      "context_set": "",
+      "source": "FUL chatbot dataset 2026"
+    },
+    {
+      "tag": "sports",
+      "patterns": [
+        "sports at ful",
+        "sports facilities",
+        "football at ful",
+        "games at ful",
+        "student sports",
+        "athletics ful"
+      ],
+      "responses": [
+        "FUL provides sports activities and facilities for students. Current sports schedules, competitions and facility access should be confirmed through official university announcements."
+      ],
+      "context_set": "",
+      "source": "FUL chatbot dataset 2026"
+    },
+    {
+      "tag": "siwes",
+      "patterns": [
+        "siwes ful",
+        "industrial training ful",
+        "student industrial work experience",
+        "how does siwes work",
+        "siwes placement"
+      ],
+      "responses": [
+        "SIWES is a practical training component for eligible programmes. Students should follow the instructions from their department and the University's relevant SIWES/industrial training unit."
+      ],
+      "context_set": "",
+      "source": "FUL chatbot dataset 2026"
+    },
+    {
+      "tag": "nysc",
+      "patterns": [
+        "nysc after ful",
+        "does ful handle nysc",
+        "nysc mobilization",
+        "nysc information for graduates"
+      ],
+      "responses": [
+        "NYSC mobilization takes place after graduation according to NYSC requirements and the University's graduate processing procedures. Confirm current mobilization instructions from FUL and NYSC."
+      ],
+      "context_set": "",
+      "source": "FUL chatbot dataset 2026"
+    },
+    {
+      "tag": "scholarships",
+      "patterns": [
+        "scholarships at ful",
+        "ful scholarship",
+        "available scholarships",
+        "financial aid ful",
+        "student scholarship",
+        "scholarship opportunities"
+      ],
+      "responses": [
+        "Scholarship opportunities can come from the University, government bodies and external organizations. Check current FUL announcements and official scholarship notices for eligibility and deadlines."
+      ],
+      "context_set": "",
+      "source": "FUL chatbot dataset 2026"
+    },
+    {
+      "tag": "student_affairs",
+      "patterns": [
+        "student affairs office",
+        "dean of students affairs",
+        "student welfare",
+        "students affairs ful",
+        "student complaints",
+        "student support"
+      ],
+      "responses": [
+        "Student welfare and support matters should be directed to the appropriate FUL student affairs/student support office. Use the current university contact directory for the responsible unit."
+      ],
+      "context_set": "",
+      "source": "FUL chatbot dataset 2026"
+    },
+    {
+      "tag": "students_union",
+      "patterns": [
+        "student union government ful",
+        "sug ful",
+        "student union",
+        "student leaders",
+        "sug election"
+      ],
+      "responses": [
+        "Student Union matters, elections and leadership can change by session. Check official FUL student affairs or approved student union announcements for current information."
+      ],
+      "context_set": "",
+      "source": "FUL chatbot dataset 2026"
+    },
+    {
+      "tag": "discipline",
+      "patterns": [
+        "student disciplinary rules",
+        "discipline in ful",
+        "student misconduct",
+        "rules for students",
+        "code of conduct"
+      ],
+      "responses": [
+        "Students are expected to follow FUL regulations and approved disciplinary procedures. For a specific rule or case, consult the current student handbook or official university regulation."
+      ],
+      "context_set": "",
+      "source": "FUL chatbot dataset 2026"
+    },
+    {
+      "tag": "dress_code",
+      "patterns": [
+        "dress code ful",
+        "is there a dress code",
+        "what should students wear",
+        "departmental dress code",
+        "can i wear casual clothes"
+      ],
+      "responses": [
+        "Dress requirements can vary by programme or activity. Follow the current rules issued by your faculty, department or the University rather than relying on a generic answer."
+      ],
+      "context_set": "",
+      "source": "FUL chatbot dataset 2026"
+    },
+    {
+      "tag": "events",
+      "patterns": [
+        "events at ful",
+        "upcoming university events",
+        "ful events",
+        "what event is happening",
+        "university programmes",
+        "academic events"
+      ],
+      "responses": [
+        "FUL publishes university news, events and notices on its official website. For upcoming events, check the latest Events Calendar and Most Recent News."
+      ],
+      "context_set": "",
+      "source": "FUL chatbot dataset 2026"
+    },
+    {
+      "tag": "news",
+      "patterns": [
+        "latest news from ful",
+        "ful latest news",
+        "what is happening at ful",
+        "recent ful news",
+        "university news",
+        "new announcements from ful"
+      ],
+      "responses": [
+        "For current news and announcements, use the Most Recent News section of the official FUL website. University news changes frequently, so a static chatbot response should not be treated as a live news feed."
+      ],
+      "context_set": "",
+      "source": "FUL chatbot dataset 2026"
+    },
+    {
+      "tag": "calendar",
+      "patterns": [
+        "ful calendar",
+        "academic calendar",
+        "event calendar",
+        "admission calendar",
+        "where can i find the calendar"
+      ],
+      "responses": [
+        "FUL provides Academic, Event and Admission calendars on its official website. Use the calendar for the specific session or activity you need."
+      ],
+      "context_set": "",
+      "source": "FUL chatbot dataset 2026"
+    },
+    {
+      "tag": "campuses",
+      "patterns": [
+        "how many campuses does ful have",
+        "ful campuses",
+        "where are ful campuses",
+        "main campus and adankolo",
+        "adankolo and felele"
+      ],
+      "responses": [
+        "FUL's main campus is at Felele, Lokoja. The College of Health Sciences is at Adankolo, behind Specialist Hospital, Lokoja. The University's official website should be checked for other study centres and locations."
+      ],
+      "context_set": "",
+      "source": "FUL chatbot dataset 2026"
+    },
+    {
+      "tag": "transportation",
+      "patterns": [
+        "how do i get to ful",
+        "transport to ful",
+        "where is felele",
+        "how to get to adankolo campus",
+        "location of adankolo campus"
+      ],
+      "responses": [
+        "The main FUL campus is on the Lokoja-Okene Expressway at Felele. The College of Health Sciences is at Adankolo, behind Specialist Hospital, Lokoja. Local transport options depend on your starting point."
+      ],
+      "context_set": "",
+      "source": "FUL chatbot dataset 2026"
+    },
+    {
+      "tag": "canteen_food",
+      "patterns": [
+        "is there a canteen",
+        "food on campus",
+        "where can i buy food",
+        "canteen at ful",
+        "food facilities ful"
+      ],
+      "responses": [
+        "Food and commercial services on campus can change. Ask the current student affairs or campus services unit for the latest information on operating canteens and vendors."
+      ],
+      "context_set": "",
+      "source": "FUL chatbot dataset 2026"
+    },
+    {
+      "tag": "internet",
+      "patterns": [
+        "wifi at ful",
+        "internet on campus",
+        "campus wifi",
+        "ict internet services",
+        "student internet access"
+      ],
+      "responses": [
+        "Internet and ICT facilities are managed through FUL's ICT services. Availability can vary by location and time; check current ICT announcements for access details."
+      ],
+      "context_set": "",
+      "source": "FUL chatbot dataset 2026"
+    },
+    {
+      "tag": "bursary",
+      "patterns": [
+        "ful bursary",
+        "bursary office",
+        "where is bursary",
+        "contact bursary",
+        "school fee problem bursary"
+      ],
+      "responses": [
+        "The Bursary handles financial and payment-related university matters. FUL currently lists Mr Sule John Shilo as Bursar. For a payment issue, keep your transaction reference and use the official Bursary contact channel."
+      ],
+      "context_set": "",
+      "source": "FUL chatbot dataset 2026"
+    },
+    {
+      "tag": "registrar",
+      "patterns": [
+        "ful registrar",
+        "who is registrar",
+        "registrar office",
+        "contact registrar",
+        "where is registrar office"
+      ],
+      "responses": [
+        "FUL currently lists Dr. Rebecca Aimiohu Okojie as Registrar. For specific services, use the appropriate Registrar division and the current official contact information."
+      ],
+      "context_set": "",
+      "source": "FUL chatbot dataset 2026"
+    },
+    {
+      "tag": "university_librarian",
+      "patterns": [
+        "who is university librarian",
+        "ful librarian",
+        "library management",
+        "name of university librarian"
+      ],
+      "responses": [
+        "FUL currently lists Professor Sarah Dauda Yani as University Librarian."
+      ],
+      "context_set": "",
+      "source": "FUL chatbot dataset 2026"
+    },
+    {
+      "tag": "deans_hods",
+      "patterns": [
+        "who is my hod",
+        "who is the dean",
+        "how do i find my hod",
+        "name of department head",
+        "who heads my department"
+      ],
+      "responses": [
+        "HODs and Deans differ by department and faculty. The safest approach is to search the current FUL staff/faculty directory for the exact department or faculty rather than using an old name."
+      ],
+      "context_set": "",
+      "source": "FUL chatbot dataset 2026"
+    },
+    {
+      "tag": "admission_news",
+      "patterns": [
+        "admission news ful",
+        "new admission announcement",
+        "post utme announcement",
+        "fresh admission notice"
+      ],
+      "responses": [
+        "Admission notices are published by FUL through its official News/Admissions pages. For the 2026/2027 cycle, the University has published the Post-UTME schedule and programme-specific cut-off marks."
+      ],
+      "context_set": "",
+      "source": "FUL chatbot dataset 2026"
+    },
+    {
+      "tag": "official_website",
+      "patterns": [
+        "ful website",
+        "official ful website",
+        "federal university lokoja website",
+        "where is the official website"
+      ],
+      "responses": [
+        "The official Federal University Lokoja website is www.fulokoja.edu.ng. Use it for current notices, admissions, calendars, programmes and contacts."
+      ],
+      "context_set": "",
+      "source": "FUL chatbot dataset 2026"
+    },
+    {
+      "tag": "official_portals",
+      "patterns": [
+        "official ful portals",
+        "which portal should i use",
+        "ful online portals",
+        "where are the official portals"
+      ],
+      "responses": [
+        "Use only portals linked or referenced by the official FUL website, including the Undergraduate Student Portal and the Post-UTME Portal. Avoid unofficial payment or admission links."
+      ],
+      "context_set": "",
+      "source": "FUL chatbot dataset 2026"
+    },
+    {
+      "tag": "unknown_question",
+      "patterns": [
+        "i don't understand",
+        "something else",
+        "other question",
+        "can you answer another question",
+        "i have another question"
+      ],
+      "responses": [
+        "Sure. Please ask your question about Federal University Lokoja as specifically as possible, for example: 'How many departments are in the Faculty of Computing?' or 'When did 2025/2026 lectures begin?'."
+      ],
+      "context_set": "",
+      "source": "FUL chatbot dataset 2026"
+    },
+    {
+      "tag": "faculty_science",
+      "patterns": [
+        "faculty of science departments",
+        "departments in faculty of science",
+        "science faculty ful",
+        "what departments are in science faculty"
+      ],
+      "responses": [
+        "FUL's current website has a Faculty of Science page, but its public faculty page currently does not list departments. Do not rely on the older 2012-era department list; use the current FUL Academics/Admissions pages for programme information."
+      ],
+      "context_set": "",
+      "source": "FUL chatbot dataset 2026"
+    },
+    {
+      "tag": "faculty_allied_health",
+      "patterns": [
+        "faculty of allied health sciences",
+        "allied health departments ful",
+        "nursing sciences ful",
+        "medical laboratory sciences ful"
+      ],
+      "responses": [
+        "FUL's current site lists a Faculty of Allied Health Sciences within its health structure. Current department pages include Nursing Sciences and Medical Laboratory Sciences."
+      ],
+      "context_set": "",
+      "source": "FUL chatbot dataset 2026"
+    },
+    {
+      "tag": "faculty_basic_medical",
+      "patterns": [
+        "faculty of basic medical sciences",
+        "basic medical sciences ful",
+        "departments in basic medical sciences",
+        "human anatomy ful"
+      ],
+      "responses": [
+        "FUL has a Faculty of Basic Medical Sciences within the College of Health Sciences. The current website includes departments such as Human Anatomy; use the live faculty page for the current department list."
+      ],
+      "context_set": "",
+      "source": "FUL chatbot dataset 2026"
+    },
+    {
+      "tag": "faculty_clinical_sciences",
+      "patterns": [
+        "faculty of clinical sciences",
+        "clinical sciences ful",
+        "departments in clinical sciences",
+        "medicine at ful",
+        "mbbs ful"
+      ],
+      "responses": [
+        "FUL has a Faculty of Clinical Sciences within the College of Health Sciences. The University's current admissions and faculty pages should be used for the latest clinical programmes and requirements."
+      ],
+      "context_set": "",
+      "source": "FUL chatbot dataset 2026"
+    },
+    {
+      "tag": "faculty_basic_clinical",
+      "patterns": [
+        "basic clinical sciences ful",
+        "faculty of basic clinical sciences",
+        "departments in basic clinical sciences"
+      ],
+      "responses": [
+        "FUL's current Academics menu includes Basic Clinical Sciences. Use the current faculty page for its department and programme details."
+      ],
+      "context_set": "",
+      "source": "FUL chatbot dataset 2026"
+    },
+    {
+      "tag": "career_services",
+      "patterns": [
+        "career service center ful",
+        "career services",
+        "jobs for ful students",
+        "career support ful",
+        "internship opportunities ful",
+        "employment support"
+      ],
+      "responses": [
+        "FUL lists a Career Service Center under Support Services. Use the official university page for current career programmes, opportunities and contacts."
+      ],
+      "context_set": "",
+      "source": "FUL chatbot dataset 2026"
+    },
+    {
+      "tag": "elearning",
+      "patterns": [
+        "ful elearning",
+        "online learning ful",
+        "lms ful",
+        "blackboard ful",
+        "learning management system"
+      ],
+      "responses": [
+        "FUL provides eLearning resources and an LMS through its official academic services. Use the link from the official FUL website rather than an unofficial login page."
+      ],
+      "context_set": "",
+      "source": "FUL chatbot dataset 2026"
+    },
+    {
+      "tag": "research_centres",
+      "patterns": [
+        "research centres ful",
+        "research institutes ful",
+        "centres and institutes",
+        "research opportunities ful",
+        "ful research centres"
+      ],
+      "responses": [
+        "FUL lists research centres and institutes including FULICEEH, the Institute of Biotechnology, Institute of Gender Studies, International Centre for Climate Change, Floods and Environmental Sustainability, and the Global Institute for Infectious Disease Control."
+      ],
+      "context_set": "",
+      "source": "FUL chatbot dataset 2026"
+    },
+    {
+      "tag": "transport_services",
+      "patterns": [
+        "ful transport services",
+        "university bus",
+        "campus transport",
+        "transport unit ful",
+        "student bus ful"
+      ],
+      "responses": [
+        "FUL lists Transport Services under Support Services. Current routes, schedules and eligibility should be obtained from the University because they can change."
+      ],
+      "context_set": "",
+      "source": "FUL chatbot dataset 2026"
+    },
+    {
+      "tag": "servicom",
+      "patterns": [
+        "servicom ful",
+        "service compact ful",
+        "complaint about university service",
+        "service delivery complaint"
+      ],
+      "responses": [
+        "FUL lists SERVICOM under Support Services. Use the official SERVICOM channel for service-delivery complaints or enquiries."
+      ],
+      "context_set": "",
+      "source": "FUL chatbot dataset 2026"
+    },
+    {
+      "tag": "quality_assurance",
+      "patterns": [
+        "quality assurance ful",
+        "quality assurance unit",
+        "programme accreditation ful",
+        "accreditation information"
+      ],
+      "responses": [
+        "FUL lists Quality Assurance under Support Services. Programme accreditation status can change, so use the current official programme or Quality Assurance information."
+      ],
+      "context_set": "",
+      "source": "FUL chatbot dataset 2026"
+    },
+    {
+      "tag": "procurement",
+      "patterns": [
+        "procurement unit ful",
+        "ful procurement",
+        "procurement office"
+      ],
+      "responses": [
+        "FUL lists Procurement under Support Services. For procurement matters, use the official university contact for the unit."
+      ],
+      "context_set": "",
+      "source": "FUL chatbot dataset 2026"
+    },
+    {
+      "tag": "legal_services",
+      "patterns": [
+        "legal services ful",
+        "university legal office",
+        "legal unit ful"
+      ],
+      "responses": [
+        "FUL lists Legal Services under Support Services. Contact the unit through the official university channels for legal or institutional matters."
+      ],
+      "context_set": "",
+      "source": "FUL chatbot dataset 2026"
+    },
+    {
+      "tag": "physical_planning",
+      "patterns": [
+        "physical planning ful",
+        "works and maintenance ful",
+        "campus maintenance",
+        "building maintenance ful"
+      ],
+      "responses": [
+        "FUL lists Physical Planning and Development and Works and Maintenance among its Support Services. Contact the relevant official unit for facilities or maintenance issues."
+      ],
+      "context_set": "",
+      "source": "FUL chatbot dataset 2026"
+    },
+    {
+      "tag": "public_affairs",
+      "patterns": [
+        "public affairs ful",
+        "university public affairs",
+        "communications office ful",
+        "press office ful"
+      ],
+      "responses": [
+        "FUL lists Public Affairs and the Directorate of Strategic Communication and Corporate Documentation among its support/administrative units. Use official channels for verified public information."
+      ],
+      "context_set": "",
+      "source": "FUL chatbot dataset 2026"
+    },
+    {
+      "tag": "alumni",
+      "patterns": [
+        "ful alumni",
+        "federal university lokoja alumni",
+        "alumni association",
+        "alumni services",
+        "how do i join ful alumni"
+      ],
+      "responses": [
+        "FUL provides an Alumni section with information on alumni awards, events, online community, projects, leadership and benefits/resources. Use the official Alumni page for current details."
+      ],
+      "context_set": "",
+      "source": "FUL chatbot dataset 2026"
+    },
+    {
+      "tag": "convocation",
+      "patterns": [
+        "ful convocation",
+        "convocation ceremony",
+        "when is convocation",
+        "10th convocation ful",
+        "convocation date"
+      ],
+      "responses": [
+        "FUL announced on September 23, 2026 that its 10th Convocation Ceremony was rescheduled to November 14, 2026. Check the University's latest convocation notice for the final programme and venue details."
+      ],
+      "context_set": "",
+      "source": "FUL chatbot dataset 2026"
+    },
+    {
+      "tag": "student_elections",
+      "patterns": [
+        "sug election ful",
+        "student union election",
+        "when is sug election",
+        "sug election 2026",
+        "student union government election"
+      ],
+      "responses": [
+        "FUL published a September 18, 2026 notice in which the Vice-Chancellor addressed students on a peaceful, credible and responsible SUG election. For dates and procedures, use the latest official student election notice."
+      ],
+      "context_set": "",
+      "source": "FUL chatbot dataset 2026"
+    },
+    {
+      "tag": "inter_university_transfer",
+      "patterns": [
+        "inter university transfer ful",
+        "transfer to ful",
+        "can i transfer to federal university lokoja",
+        "change university to ful"
+      ],
+      "responses": [
+        "FUL provides an Inter-University Transfer option through its official admissions resources. Requirements and availability depend on the current session, so check the official transfer portal and notice."
+      ],
+      "context_set": "",
+      "source": "FUL chatbot dataset 2026"
+    },
+    {
+      "tag": "etranscript",
+      "patterns": [
+        "ful etranscript",
+        "online transcript portal",
+        "etranscript fulokoja",
+        "where is the transcript portal"
+      ],
+      "responses": [
+        "FUL provides an official eTranscript service through its student resources. Use the eTranscript link from the official FUL website and follow the current application instructions."
+      ],
+      "context_set": "",
+      "source": "FUL chatbot dataset 2026"
+    },
+    {
+      "tag": "oer",
+      "patterns": [
+        "ful oer",
+        "open educational resources ful",
+        "oer portal",
+        "ful open educational resources"
+      ],
+      "responses": [
+        "FUL provides an official Open Educational Resources (OER) portal through its website. Use the official link for current materials and resources."
+      ],
+      "context_set": "",
+      "source": "FUL chatbot dataset 2026"
+    },
+    {
+      "tag": "student_handbook",
+      "patterns": [
+        "student handbook ful",
+        "rules and regulations handbook",
+        "ful student guide",
+        "student regulations"
+      ],
+      "responses": [
+        "For student rules, procedures and regulations, use the latest official FUL student handbook or relevant policy notice. Older copies may contain outdated rules."
+      ],
+      "context_set": "",
+      "source": "FUL chatbot dataset 2026"
+    },
+    {
+      "tag": "english_credit_requirement",
+      "patterns": [
+        "is english compulsory for admission",
+        "do i need english credit",
+        "english language credit pass requirement",
+        "what o level subjects do i need for ful",
+        "minimum o level requirement for admission",
+        "o level requirements for federal university lokoja"
+      ],
+      "responses": [
+        "A credit pass in English Language is mandatory for admission to all programmes at FUL. Only applicants who uploaded their O'Level result(s) on their JAMB e-Facility, chose FUL as first choice and took part in the Post-UTME screening are considered. Other O'Level subjects depend on the programme, so ask for a specific course, for example 'requirements for Computer Science'."
+      ],
+      "source": "https://fulokoja.edu.ng/admissions.php?i=general-admission-requirements",
+      "context_set": ""
+    },
+    {
+      "tag": "falsified_results_warning",
+      "patterns": [
+        "what if i upload fake o level result",
+        "falsified result admission revoked",
+        "can admission be withdrawn",
+        "is it safe to use third party email for jamb",
+        "third party email admission portal",
+        "fake result penalty"
+      ],
+      "responses": [
+        "FUL warns that any candidate found to have uploaded falsified O'Level result(s) on the JAMB portal and who gains admission on that basis will have the admission revoked upon discovery, regardless of when it is discovered. FUL also advises against using a third-party email address, because it may expose your admission to unauthorized interference and cause you to lose access to your admission portal."
+      ],
+      "source": "https://www.fulokoja.edu.ng/news-flash.php?i=55&alias=2026-2027-admission-screening-exercise_1780954427",
+      "context_set": ""
+    },
+    {
+      "tag": "first_choice_requirement",
+      "patterns": [
+        "must i choose ful as first choice",
+        "can i get admission with ful as second choice",
+        "change of institution to ful",
+        "change my jamb institution to federal university lokoja",
+        "first choice institution requirement"
+      ],
+      "responses": [
+        "For 2026/2027, only applicants who choose FUL as their first choice and participate in the Post-UTME screening are considered for admission. FUL's portal-opening notice also invites candidates who want to change their institution of choice to FUL. Follow JAMB's current procedure for any change."
+      ],
+      "source": "https://www.fulokoja.edu.ng/news-flash.php?i=55&alias=2026-2027-admission-screening-exercise_1780954427",
+      "context_set": ""
+    },
+    {
+      "tag": "requirements_computer_science",
+      "patterns": [
+        "requirements for computer science",
+        "computer science admission requirements",
+        "what do i need to study computer science at ful",
+        "utme subjects for computer science",
+        "o level subjects for computer science",
+        "direct entry requirements for computer science",
+        "bsc computer science requirements federal university lokoja"
+      ],
+      "responses": [
+        "B.Sc. Computer Science (4 years). O'Level: five SSC credit passes in not more than two sittings, including English Language, Mathematics, Physics and two other science subjects from Biology/Agricultural Science, Chemistry/Computer Studies or Further Mathematics. UTME subjects: English Language, Mathematics, Physics and Chemistry/Computer Studies. Direct Entry: IJMB/GCE A-Level with a minimum of 9 aggregate points (IJMB: Mathematics plus one of Physics, Chemistry or Biology/Zoology/Botany; GCE: Computer Science/IT plus one of Physics, Maths, Chemistry or Biology); NCE with a credit in Computer Science/Maths/Computer Studies plus another relevant subject; ND with at least Upper Credit in Computer Science; HND with at least Lower Credit in Computer Science; or a Bachelor's degree with at least a Third Class in a relevant field. To take part in Post-UTME screening you also need a UTME score of at least 160."
+      ],
+      "source": "https://fulokoja.edu.ng/admissions.php?i=general-admission-requirements",
+      "context_set": ""
+    },
+    {
+      "tag": "requirements_computing_other",
+      "patterns": [
+        "requirements for artificial intelligence",
+        "cyber security admission requirements",
+        "data science requirements",
+        "software engineering admission requirements",
+        "requirements for faculty of computing courses",
+        "utme subjects for software engineering",
+        "utme subjects for data science",
+        "utme subjects for cyber security"
+      ],
+      "responses": [
+        "B.Sc. Artificial Intelligence, Cyber Security, Data Science and Software Engineering (each 4 years). O'Level: five SSC credit passes in not more than two sittings, including English Language, Mathematics and Physics plus two more from Chemistry, Biology, Further Mathematics and Computer Studies. UTME subjects: English Language, Mathematics, Physics and any one of Chemistry, Computer Studies or Agricultural Science/Biology. FUL's requirements page marks these four programmes as not open to Direct Entry."
+      ],
+      "source": "https://fulokoja.edu.ng/admissions.php?i=general-admission-requirements",
+      "context_set": ""
+    },
+    {
+      "tag": "requirements_engineering",
+      "patterns": [
+        "requirements for computer engineering",
+        "electrical electronic engineering admission requirements",
+        "mechanical engineering requirements",
+        "engineering admission requirements at ful",
+        "utme subjects for engineering",
+        "faculty of engineering requirements"
+      ],
+      "responses": [
+        "B.Eng. Computer Engineering, Electrical and Electronics Engineering and Mechanical Engineering (each 5 years). O'Level: five SSC credit passes including English Language, Mathematics, Physics, Chemistry and one other science subject. UTME subjects: English Language, Physics, Mathematics and Chemistry. Direct Entry: IJMB/GCE A-Level with a minimum of 15 aggregate points; ND with at least Upper Credit in a relevant engineering programme; HND with a Distinction; or a Bachelor's degree with a Third Class in a relevant engineering discipline. NCE is not accepted."
+      ],
+      "source": "https://fulokoja.edu.ng/admissions.php?i=general-admission-requirements",
+      "context_set": ""
+    },
+    {
+      "tag": "requirements_health_sciences",
+      "patterns": [
+        "requirements for medicine and surgery",
+        "mbbs admission requirements",
+        "nursing science requirements",
+        "medical laboratory science requirements",
+        "college of health sciences admission requirements",
+        "utme subjects for medicine",
+        "how many sittings for medicine o level"
+      ],
+      "responses": [
+        "College of Health Sciences programmes. MB;BS Medicine and Surgery (6 years): five SSC credit passes in ONE sitting in English Language, Mathematics, Biology, Chemistry and Physics. B.Sc. Nursing Science (5 years) and B.Med. Lab. Science (4 years): the same five subjects, in not more than two sittings. UTME subjects for all three: English Language, Biology, Chemistry and Physics. FUL's requirements page marks these programmes as not open to Direct Entry."
+      ],
+      "source": "https://fulokoja.edu.ng/admissions.php?i=general-admission-requirements",
+      "context_set": ""
+    },
+    {
+      "tag": "requirements_law",
+      "patterns": [
+        "requirements for law",
+        "llb admission requirements",
+        "law admission requirements at ful",
+        "utme subjects for law",
+        "what do i need to study law at federal university lokoja"
+      ],
+      "responses": [
+        "LL.B. Law (5 years). O'Level: five SSC credit passes in not more than two sittings in English Language, Literature-in-English and any three Arts or Social Science subjects, plus a credit pass in CRS or Islamic Studies. UTME subjects: English Language, Literature in English and two other Arts or Social Science subjects. FUL's requirements page marks Law as not open to Direct Entry."
+      ],
+      "source": "https://fulokoja.edu.ng/admissions.php?i=general-admission-requirements",
+      "context_set": ""
+    },
+    {
+      "tag": "requirements_management_sciences",
+      "patterns": [
+        "requirements for accounting",
+        "banking and finance admission requirements",
+        "business administration requirements",
+        "public administration requirements",
+        "actuarial science requirements",
+        "entrepreneurship studies requirements",
+        "procurement management requirements",
+        "faculty of management sciences admission requirements"
+      ],
+      "responses": [
+        "Management Sciences programmes (4 years each). Accounting: O'Level English, Mathematics, Economics and two relevant subjects (for example Commerce, Government, Book-Keeping, Geography or Financial Accounting); UTME English, Mathematics, Economics and one of Government, Commerce or Principles of Account. Finance and Business Administration: O'Level English, Mathematics, Economics and two relevant Social Science/business subjects; UTME English, Mathematics, Economics and one other relevant subject. Public Administration: O'Level English, Mathematics, Economics, Government/History and one more Arts or Social Science subject; UTME English, Government, Economics and one Arts/Social Science subject. Actuarial Science (listed under Management Science on the requirements page): O'Level English, Mathematics, Economics and two of Further Mathematics, Geography, Chemistry, Physics, Computer Studies, Biology, Financial Accounting, Commerce, Business Methods or Statistics; UTME English, Mathematics, Economics and one other listed subject. Entrepreneurship Studies and Procurement Management: O'Level English, Mathematics, Economics and other Arts/Social Science subjects; UTME English, Government, Economics and one Arts/Social Science subject. Actuarial Science, Entrepreneurship and Procurement are marked as not open to Direct Entry."
+      ],
+      "source": "https://fulokoja.edu.ng/admissions.php?i=general-admission-requirements",
+      "context_set": ""
+    },
+    {
+      "tag": "requirements_life_sciences",
+      "patterns": [
+        "requirements for biochemistry",
+        "microbiology admission requirements",
+        "biotechnology requirements",
+        "botany zoology biology requirements",
+        "faculty of life sciences admission requirements",
+        "utme subjects for microbiology"
+      ],
+      "responses": [
+        "Life Sciences programmes (Biochemistry, Biology, Biotechnology, Botany, Microbiology, Zoology; 4 years each). O'Level: five credit passes in not more than two sittings in English Language, Mathematics, Physics, Chemistry and Biology. UTME subjects: English Language, Biology, Chemistry and Physics/Mathematics. Direct Entry rules differ by programme (A-Level, ND, HND or degree in a relevant field), so ask about a specific course."
+      ],
+      "source": "https://fulokoja.edu.ng/admissions.php?i=general-admission-requirements",
+      "context_set": ""
+    },
+    {
+      "tag": "requirements_physical_sciences",
+      "patterns": [
+        "requirements for chemistry",
+        "geology admission requirements",
+        "industrial chemistry requirements",
+        "mathematics admission requirements",
+        "physics admission requirements",
+        "statistics admission requirements",
+        "faculty of physical sciences admission requirements"
+      ],
+      "responses": [
+        "Physical Sciences programmes (4 years each); O'Level is five credit passes in not more than two sittings in relevant subjects including English Language and Mathematics. UTME subjects: Chemistry: English, Chemistry and any two of Biology, Physics, Mathematics. Geology: English, Chemistry, Physics and Mathematics/Biology. Industrial Chemistry: English, Chemistry and any two of Physics, Mathematics, Biology/Agricultural Science. Mathematics: English, Mathematics, Physics and one of Chemistry, Geography or Biology/Agricultural Science. Physics: English, Physics, Mathematics and Chemistry or Computer Studies. Statistics: English, Mathematics and any two of Physics, Chemistry, Biology, Economics/Geography."
+      ],
+      "source": "https://fulokoja.edu.ng/admissions.php?i=general-admission-requirements",
+      "context_set": ""
+    },
+    {
+      "tag": "requirements_agriculture",
+      "patterns": [
+        "requirements for agriculture",
+        "agricultural economics requirements",
+        "fisheries and aquaculture requirements",
+        "faculty of agriculture admission requirements",
+        "utme subjects for agriculture"
+      ],
+      "responses": [
+        "Faculty of Agriculture. B. Agriculture (5 years): O'Level five SSC credits in English Language, Mathematics, Chemistry, Biology/Agricultural Science and Physics or Geography (at least a pass in Physics), in not more than two sittings. B.Sc. Agricultural Economics and B.Sc. Fisheries and Aquaculture (4 years each): five credits including English, Mathematics and Biology/Agricultural Science plus relevant subjects. UTME subjects for all three: English Language, Biology, Chemistry and Physics. Agricultural Economics and Fisheries and Aquaculture are marked as not open to Direct Entry."
+      ],
+      "source": "https://fulokoja.edu.ng/admissions.php?i=general-admission-requirements",
+      "context_set": ""
+    },
+    {
+      "tag": "requirements_arts",
+      "patterns": [
+        "requirements for english and literary studies",
+        "theatre arts admission requirements",
+        "history and international studies requirements",
+        "arabic islamic christian religious studies requirements",
+        "music philosophy linguistics requirements",
+        "faculty of arts admission requirements",
+        "french admission requirements",
+        "archaeology requirements"
+      ],
+      "responses": [
+        "Faculty of Arts programmes (4 years each). All need a credit in English Language at O'Level, with the other credits depending on the course. UTME subjects: English and Literary Studies: English, Literature in English and two Arts/Social Science subjects. Theatre Arts: English, Literature in English and two of Government, History, CRS, IRS, Commerce/Economics, Geography. History and International Studies: English, History/Government and two Arts/Social Science subjects. Christian Religious Studies: English, CRK and two Arts/Social Science subjects. Islamic Studies: English, Islamic Studies/Arabic and two other Arts/Social Science subjects. Arabic Studies: English, Arabic and two Arts/Social Science subjects. French: English, French and two Arts/Social Science subjects. Linguistics: English, one Arts subject and two others. Music, Philosophy and Archaeology: English plus any three relevant subjects."
+      ],
+      "source": "https://fulokoja.edu.ng/admissions.php?i=general-admission-requirements",
+      "context_set": ""
+    },
+    {
+      "tag": "requirements_communication_media",
+      "patterns": [
+        "requirements for mass communication",
+        "broadcasting journalism admission requirements",
+        "film and multimedia studies requirements",
+        "faculty of communication and media studies requirements",
+        "utme subjects for mass communication"
+      ],
+      "responses": [
+        "Communication and Media Studies (4 years each). Mass Communication: O'Level credits in Literature in English, English Language, Mathematics and two Arts/Social Science subjects; UTME English, Literature in English and two of Government, Economics and CRS/IRS. Broadcasting Journalism and Film and Multimedia Studies: O'Level credits in English Language, Mathematics, Economics and two Arts/Social Science subjects; UTME English, Economics, Mathematics and one of Government, History, Geography or Financial Accounting."
+      ],
+      "source": "https://fulokoja.edu.ng/admissions.php?i=general-admission-requirements",
+      "context_set": ""
+    },
+    {
+      "tag": "requirements_education",
+      "patterns": [
+        "requirements for education courses",
+        "guidance and counselling admission requirements",
+        "business education requirements",
+        "integrated science education requirements",
+        "faculty of education admission requirements",
+        "computer science education requirements",
+        "social studies education requirements"
+      ],
+      "responses": [
+        "Faculty of Education programmes (4 years each) include B.Sc.(Ed.) Economics, English, Geography, History, Political Science, Social Studies, Business Education, Integrated Science, Biology, Chemistry, Computer Science, Mathematics, Physics, plus B.Ed. Guidance and Counselling and Educational Management and Planning. Generally you need five SSC credits including English Language and Mathematics plus relevant subjects, and UTME English plus the subject of specialisation. Example: B.Sc.(Ed.) Computer Science needs O'Level English, Mathematics and three science subjects, and UTME English, Mathematics, Physics and one of Biology, Chemistry or Geography. Ask about a specific course for more detail."
+      ],
+      "source": "https://fulokoja.edu.ng/admissions.php?i=general-admission-requirements",
+      "context_set": ""
+    },
+    {
+      "tag": "requirements_environmental_science",
+      "patterns": [
+        "requirements for architecture",
+        "building admission requirements",
+        "urban and regional planning requirements",
+        "environmental management requirements",
+        "geography admission requirements",
+        "faculty of environmental science admission requirements"
+      ],
+      "responses": [
+        "Faculty of Environmental Science. Architecture (4 years): UTME English, Mathematics, Physics and two of Chemistry, Technical Drawing, Fine Art, Geography, Economics, Building Construction or Survey. Building (4 years): UTME English, Mathematics, Physics and one of Chemistry, Building Construction, Geography or Technical Drawing. Environmental Management (5 years): UTME English and any three of Mathematics, Chemistry, Physics, Geography, Economics, Agriculture or Biology. Urban and Regional Planning (5 years): UTME English, Mathematics and two of Geography, Economics, Biology, Physics, Chemistry, Technical Drawing, Fine Arts or Government. B.Sc. Geography (4 years): UTME English and any three subjects. Only Geography accepts Direct Entry; the others are marked as not open to Direct Entry."
+      ],
+      "source": "https://fulokoja.edu.ng/admissions.php?i=general-admission-requirements",
+      "context_set": ""
+    },
+    {
+      "tag": "predegree_programme",
+      "patterns": [
+        "pre degree programme",
+        "predegree admission",
+        "school of preliminary studies",
+        "pre-degree i and ii",
+        "pre degree form",
+        "predegree portal"
+      ],
+      "responses": [
+        "FUL's School of Preliminary Studies has offered Pre-degree I (for candidates with O'Level deficiencies) and Pre-degree II (for candidates who meet the minimum requirements but did not get admission), in Arts, Social Sciences and Science, running one academic session at the Adankolo Campus. A past notice required five O'Level credits including English and Mathematics in not more than two sittings. A Pre-degree Portal is listed under Admissions on the official website; check the current notice for the present session."
+      ],
+      "source": "https://www.fulokoja.edu.ng/news-page.php?i=918&a=apply-now-sales-of-pre-degree-forms-at-federal-university-lokoja",
+      "context_set": ""
+    },
+    {
+      "tag": "admission_routes",
+      "patterns": [
+        "what admission options does ful offer",
+        "other admission routes",
+        "diploma programme admission",
+        "special undergraduate programme",
+        "ict training admission",
+        "staff school admission",
+        "institute of education admission"
+      ],
+      "responses": [
+        "FUL's Admissions menu lists: General Requirements, Staff School, ICT Training, Institute of Education, Diploma Programme, Special Undergraduate, and Undergraduate routes (JUPEB, Pre-degree, Post-UTME and Inter-University Transfer), plus Postgraduate admissions. Use www.fulokoja.edu.ng for the current notice for each."
+      ],
+      "source": "https://www.fulokoja.edu.ng/",
+      "context_set": ""
+    },
+    {
+      "tag": "official_links",
+      "patterns": [
+        "ful portal links",
+        "student portal website",
+        "postgraduate portal link",
+        "etranscript website",
+        "lms link",
+        "library website",
+        "research repository link",
+        "staff profile link"
+      ],
+      "responses": [
+        "Links listed on FUL's official website: Undergraduate Student Portal ug.fulokoja.edu.ng; Post-UTME Portal putme.fulokoja.edu.ng; eTranscript etranscript.fulokoja.edu.ng; eLearning/LMS lms.fulokoja.edu.ng; Postgraduate (SPGS) spgs.fulokoja.edu.ng; University Library library.fulokoja.edu.ng; Research repository repository.fulokoja.edu.ng and publications.fulokoja.edu.ng; OER oer.fulokoja.edu.ng; Staff Profile staffarea.fulokoja.edu.ng. To stay safe, open them from www.fulokoja.edu.ng."
+      ],
+      "source": "https://www.fulokoja.edu.ng/",
+      "context_set": ""
+    },
+    {
+      "tag": "governing_council",
+      "patterns": [
+        "who is the chairman of ful council",
+        "governing council",
+        "ful council members",
+        "central administration",
+        "who runs federal university lokoja"
+      ],
+      "responses": [
+        "FUL's About menu has a Governing Council page (fulokoja.edu.ng/governing-council.php) and a Principal Officers page (fulokoja.edu.ng/principal-officers.php) under Central Administration. Use them for the current membership."
+      ],
+      "source": "https://fulokoja.edu.ng/governing-council.php",
+      "context_set": ""
+    },
+    {
+      "tag": "about_university_pages",
+      "patterns": [
+        "ful vision and mission",
+        "university anthem",
+        "ful ranking",
+        "university awards",
+        "logo and flag of the university",
+        "lokoja at a glance",
+        "our history and traditions"
+      ],
+      "responses": [
+        "FUL's About section includes pages for Vision and Mission, Our History and Traditions, Our Locations, Ranking, Awards, The University Anthem, Logo and Flag of the University, and Lokoja at a Glance. Open the About menu on www.fulokoja.edu.ng for the full content."
+      ],
+      "source": "https://www.fulokoja.edu.ng/",
+      "context_set": ""
+    },
+    {
+      "tag": "tetfund",
+      "patterns": [
+        "tetfund at ful",
+        "tetfund projects",
+        "tetfund intervention",
+        "tetfund unit",
+        "institution based research tetfund"
+      ],
+      "responses": [
+        "FUL's website has a TETFund section covering Special Intervention (High Impact and Zonal) and Annual Intervention (Institution-Based Research, Physical Infrastructure/Program Upgrade, and the TETFund eLearning Project). The TETFund Unit is listed under the Office of the Vice-Chancellor."
+      ],
+      "source": "https://www.fulokoja.edu.ng/",
+      "context_set": ""
+    },
+    {
+      "tag": "zoo_conservatory",
+      "patterns": [
+        "ful zoo",
+        "zoo and conservatory",
+        "fulzac",
+        "does ful have a zoo"
+      ],
+      "responses": [
+        "FUL lists the FUL Zoo and Conservatory (FULZAC) under its Support Services. Check the official website page for current details."
+      ],
+      "source": "https://fulokoja.edu.ng/administrative-department.php?i=7&n=ful-zoo-and-conservatory-fulzac",
+      "context_set": ""
+    },
+    {
+      "tag": "other_website_sections",
+      "patterns": [
+        "giving and donations",
+        "ful enterprises",
+        "photo gallery",
+        "featured videos",
+        "downloads page",
+        "staff email",
+        "market days"
+      ],
+      "responses": [
+        "FUL's website also has these sections: Giving/Donations, Enterprises, Photo Gallery, Featured Videos, Downloads, Staff Email, Staff Profile, and Market Days (market.fulokoja.edu.ng). Use the links on www.fulokoja.edu.ng."
+      ],
+      "source": "https://www.fulokoja.edu.ng/",
+      "context_set": ""
+    },
+    {
+      "tag": "administrative_units",
+      "patterns": [
+        "administrative units at ful",
+        "gst unit",
+        "advancement and linkages",
+        "council affairs",
+        "internal audit",
+        "information and protocol",
+        "works and maintenance",
+        "registry academic affairs human resources"
+      ],
+      "responses": [
+        "Besides those already mentioned, FUL's Support Services list includes Council Affairs, Advancement and Linkages, Environmental Health, GST, Information and Protocol, Internal Audit, the TETFund Unit and the Registry (with Academic Affairs and Human Resources). Contact them through official FUL channels."
+      ],
+      "source": "https://www.fulokoja.edu.ng/",
+      "context_set": ""
+    },
+    {
+      "tag": "recent_news_highlights",
+      "patterns": [
+        "what is the latest news at ful",
+        "recent news federal university lokoja",
+        "vc 100 days in office",
+        "five year partnership portfolio",
+        "ful nimr partnership",
+        "what is happening at ful"
+      ],
+      "responses": [
+        "Recent items on FUL's news pages include: the 10th Convocation rescheduled to Saturday, November 14, 2026 (from October 17), announced September 23; FUL unveiled a Five-Year Partnership Portfolio and called for strategic investment (September 25, 2026); a press release on Prof. Ibileye's 100 days in office as Vice-Chancellor; a VC address on the SUG election; and, in June 2026, a research partnership with NIMR and the start of the 2026/2027 admission screening. News changes often, so check www.fulokoja.edu.ng."
+      ],
+      "source": "https://www.fulokoja.edu.ng/",
+      "context_set": ""
+    }
+  ]
+}
